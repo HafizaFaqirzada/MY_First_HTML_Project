@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <title> Welcome To My Personal Hub </title>
+</head>
+<body>
+    <a href="index.html"> Home Page </a><br>
+    <a href="aboutMe.html"> About Me </a><br>
+    <a href="gallery.html"> Gallery</a> <br>
+    <a href="contactMe.html"> Contact Me </a> <hr> <br>
+
+    <h1>
+        Contact Me
+    </h1>
+    
+    <form action="form_submitted.html" method="post">
+        <input type="text" placeholder=" Enter Your Full Name "><span style="color: red;"></span>
+        <input type="email" placeholder=" Enter Your Email Address "><span style="color: red;"></span>
+        <label for="Any Suggestion or Question? " ></label>
+        <textarea name="Any Suggestion Or Question?"rows="2" cols="15" placeholder="Please Ask Your Question Or Suggestion" ></textarea> <br>
+        <label for="">
+            <b> Gender: </b>
+        </label> <br>
+        <input type="radio" name="gender" id="female" required> <span style="color: red;"></span>
+        <label for="female"> Female </label><br>
+
+        <input type="radio" name="gender" id="male" required> <span style="color: red;"></span>
+        <label for="male"> Male </label><br>
+   
+        <input type="radio" name="gender" id="not_say" required> <span style="color: red;"></span>
+        <label for="not_say"> I Would rather not to Select!  </label><br>
+        
+        <fieldset>
+            <legend><b> Extra Information </b></legend>
+            <label> Free Time Activities </label>
+            <input type="checkbox" name="free_time_activities" id="free_time_activities">
+            <label> Free Time Activities </label> <br>
+       
+            <input type="checkbox" name="reading" id="reading">
+            <label for="reading"> Reading </label> <br><br>
+            <input type="color" placeholder="choose your favorite color "></input> <br> <br>
+            <input type="date" placeholder=" Enter Your birth date "></input> <br> <br>
+            <input type="email" placeholder="Enter Your Email Address "></input> <br> <br>
+            <input type="file" placeholder="upload a file here"></input> <br> <br>
+            <input type="password" value="test" placeholder="Enter your password"></input> <br> <br>
+            <input type="search" placeholder=" Search Your Photo Here"></input> <br> <br>
+            <input type="number" placeholder="Enter Your Whatsapp number Here"></input> <br> <br>
+        </fieldset>
+        <label> Which Language Are You interested to learn ?</label>
+        <select>
+            <option value="dari"> Dari </option><br>
+            <option value="pashto"> Pashto </option><br>
+            <option value="english"> English </option><br>
+            <option value="arabic"> Arabic </option><br>
+        </select> <br><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
